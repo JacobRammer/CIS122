@@ -1,0 +1,53 @@
+1. January = 31 = == 1 or <= 31
+
+2. February = 28, 29 if leap year: == 32 or <= 59 if not year year
+
+3. March = 31 = == 60 or <= 90
+
+4. April = 30 = == 91 or <= 120
+
+5. May = 31 = == 121 or <= 151
+
+6. June = 30 = == 152 or <= 181
+
+7. July = 31 = == 182 or <= 212
+
+8. August = 31 = == 213 or <= 243
+
+9. September = 30 = == 244 or <= 273
+
+10. October = 31 = == 274 or <= 304
+
+11. November = 30 = == 305 or <= 334
+
+12. December = 31 = == 335 or <= 365
+
+
+Prompt user to input a date in the format of year -> day #
+
+To determine what month it is:
+use if statements to find if user input is <= or => day of the month
+
+To find if input of 29 is valid for Feb. we will need to check to see if the
+year submitted is a leap year. If it is not, will return error message.
+
+1. Prompt the user for the year and return
+2. Check valid_year to see if the input is valid.
+3. Prompt user for the day of the year. Use the return value for input_year
+4. If year is valid and day is valid and the day inputted is valid return day
+5. Get the day string from returned values throughout the program
+6. Use the stat function to call other functions in the program to run with one function call
+7. Call start()
+
+def is_leap_year(year):
+def valid_year(year):
+def valid_day_of_year(year, day_of_year):
+def input_year():
+def get_days_in_year(year):
+def input_day_of_year(year):
+def valid_month(month):
+def translate_month(month):
+def get_days_in_month(year, month):
+def valid_day(year, month, day):
+def get_date_string(year, month, day):
+def start():
